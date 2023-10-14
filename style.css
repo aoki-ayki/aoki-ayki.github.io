@@ -1,0 +1,56 @@
+@charset 'utf-8';
+* {
+	font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo,sans-serif;
+}
+
+
+@media screen and (max-width: 479px) {
+	section {
+		width: calc(100vw - 10px);
+		margin: 30px auto;
+	}
+}
+
+/*全体*/
+section {
+	width: 90%;
+	max-width: 800px;
+	margin: 30px auto;
+}
+
+select {
+	margin: 0 5px;
+}
+
+.notes{
+	color: red;
+	font-size: small;
+}
+
+.dispBl{display: block;}
+
+.dispFlx{display: flex;}
+
+p{margin: 0rem;}
+
+/*編成班*/
+.orgBox{
+	margin: 0 0 3rem;
+	padding: 0.5rem;
+}
+/*カード*/
+.card{
+	margin: 1rem 0rem;
+}
+
+
+/*リザルト*/
+.result{
+	background-color: #eee;
+	padding: 10px;
+	margin-top: 50px;
+}
+
+.mb-2{
+	margin-bottom: 1rem;
+}
