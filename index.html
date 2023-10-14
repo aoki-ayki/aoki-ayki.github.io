@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@namasute_ayki">
+		<meta property="og:url" content="">
+		<meta property="og:title" content="チャレンジイベント用攻撃力計算機">
+		<meta property="og:description" content="チャレンジイベント用の特効計算">
+		<meta property="og:image" content="">
+		
+		<title>チャレンジイベント用攻撃力計算機</title>
+		<script src="script.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body onload="setup()">
+		<section>
+			<h3>チャレンジイベント用攻撃力計算機</h3>
+			<div>
+				<select name="eventVer" disabled>
+					<option value="0">君に染む道</option>
+					<option value="1">君に贈る宴</option>
+					<option value="3">君と辿る刻</option>
+					<option value="2">君に咲く花</option>
+					<option value="4" selected>君と語る午後</option>
+				</select>
+			</div>
+			<span class="notes">>※「君と語る午後」では今年度BDカード補正がないため、チェックボックスは利用できません</span>
+
+			<div id="container"></div>
+
+			<div name="result" class="result">
+				<div class="mb-2">
+					<p>浄化班のみ：<span id="sp1"></span></p>
+					<p>【クリアステージ：<span id="sp1stage"></span>】</p>
+				</div>
+				<div class="mb-2">
+					<p>浄化＋援護１：<span id="sp2"></span></p>
+					<p>【クリアステージ：<span id="sp2stage"></span>】</p>
+				</div>
+				<div class="mb-2">
+					<p>全班：<span id="sp3"></span></p>
+					<p>【クリアステージ：<span id="sp3stage"></span>】</p>
+				</div>
+				<div>
+					<p>全班(チャレンジボーナスMAX)：<span id="bonus"></span></p>
+					<p>【クリアステージ：<span id="bonusStage"></span>】</p>
+				</div>
+			</div>
+		</section>
+		
+	<body>
+</html>
